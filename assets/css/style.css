@@ -5,15 +5,31 @@ body {
 /*----------------------------Colours*/
 
 .bg-color-nav {
-    background-color: #404040;
+background-color: #404040;
 }
 
-.nav-text-color {
+.menu-text-color {
     color: #f2f2f2;
 }
 
 /*----------------------------Navbar*/
 
 .nav-bar-main {
+    height: 80px;
+    border: 1px solid #D93A2B;
+}
+
+.menu-text {
+    text-align: right;
+}
+
+/*----------------------------Main Image*/
+
+.image {
+    background: url("../images/lumley.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
     border: 1px solid #D93A2B;
 }
