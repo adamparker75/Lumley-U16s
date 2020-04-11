@@ -3,11 +3,6 @@ body {
 }
 
 /*----------------------------Colours*/
-
-.bg-color-nav {
-background-color: #404040;
-}
-
 .menu-text-color {
     color: #f2f2f2;
 }
@@ -19,8 +14,8 @@ background-color: #404040;
     border: 1px solid #D93A2B;
 }
 
-.menu-text {
-    text-align: right;
+.logo {
+    width: 80px;
 }
 
 /*----------------------------Main Image*/
@@ -31,5 +26,4 @@ background-color: #404040;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 450px;
-    border: 1px solid #D93A2B;
-}
+ }
