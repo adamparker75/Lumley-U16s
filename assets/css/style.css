@@ -8,7 +8,8 @@ element.style {
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #f2f2f2;
-    font-size: 20px;
+    font-size: 25px;
+    padding-right: 20px;
 }
 
 .menubar {
@@ -19,31 +20,36 @@ element.style {
     width: 80px;
   }
 
+/*----------------------------Main Image*/
+
 .bgimage {
   width:100%;
-  height:480px;
+  height:520px;
   background: url("../images/lumley.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
   background-size:cover;
-  background-attachment: fixed;
-  position: relative;
+  background-attachment: scroll;
+  background-clip: content-box;
   }
 
- .herotext {
-  color:#404040;
-  width: 300px;
-  height: 200px;
-  border-radius: 50%;
-  padding-top: 50px;
-  padding-left: 50px;
-  background-color:#FFFCFA;
-  opacity: 0.5;
-  bottom: 30px;
-  right: 50px;
-  position: absolute;
-  }
-
-  .herotext h2 h3 {
+  .bgimage h2 {
       color: #f2f2f2;
-  }
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      }
+
+    .herotext {
+        padding: 30px 20px;
+    }
+
+/*----------------------------Main Content*/
+
+.maincontent {
+    width: 100%;
+    height: 520px;
+    padding: 20px;
+    background-color: #404040;
+    color: #f2f2f2;
+    border-top: 1px solid #D93A2B;
+    }
