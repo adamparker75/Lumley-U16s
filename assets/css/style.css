@@ -30,12 +30,13 @@ element.style {
   background-position: center top;
   background-size:cover;
   background-attachment: scroll;
-  background-clip: content-box;
+  background-clip: padding-box;
   }
 
   .bgimage h2 {
       color: #f2f2f2;
       font-family: 'Roboto', sans-serif;
+      font-size: 45px;
       font-weight: 700;
       }
 
@@ -47,9 +48,29 @@ element.style {
 
 .maincontent {
     width: 100%;
-    height: 520px;
+    height: 420px;
     padding: 20px;
     background-color: #404040;
-    color: #f2f2f2;
+    color: #D93A2B;
     border-top: 1px solid #D93A2B;
+    font-weight: 400;
     }
+
+    .clubtext p {
+        color: #f2f2f2;
+        padding-top: 20px;
+    }
+
+    
+/*----------------------------Footer*/
+
+.footer {
+    height: 75px;
+    background-color: #404040;
+    border: 1px solid #D93A2B    
+}
+
+.footer-links li a {
+    color: #f2f2f2;
+}
+
