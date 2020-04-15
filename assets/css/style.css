@@ -49,7 +49,6 @@ element.style {
 .maincontent {
     width: 100%;
     height: 420px;
-    padding: 20px;
     background-color: #404040;
     border-top: 1px solid #D93A2B;
     }
@@ -61,14 +60,13 @@ element.style {
     text-decoration: underline;
     }
 
-.clubtext p {
+.maincontent p {
     color: #f2f2f2;
-    padding-top: 30px;
     font-size: 25px;
     font-weight: 400;
     }
 
-    
+   
 /*----------------------------Footer*/
 
 .footer {
@@ -86,4 +84,3 @@ element.style {
     #footer-details {
         padding: 10px;
     }
-
