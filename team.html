@@ -51,7 +51,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<h2 class="teamtext">Meet The Team</h2>
+					<h2 class="teamhead">Meet The Team</h2>
 				</div>
 			</div>
 		</div>
@@ -61,7 +61,7 @@
 			<div class="col-md-4">
 				<table class="table team-text">
 					<thead>
-						<tr class="">
+						<tr class="table-title">
 							<th scope="col">Number</th>
 							<th scope="col">Name</th>
 							<th scope="col">Position</th>
@@ -69,7 +69,7 @@
 					</thead>
 					<tr>
 						<th scope="row">1</th>
-						<td>Jess Ratcliffe</td>
+						<td><a href="#" class="team-text" data-toggle="popover" data-placement="top" data-trigger="focus" title="Jess Ratcliffe" data-content="Great shot stopper, very quick reflexes.">Jess Ratcliffe</a></td>
 						<td>Goalkeeper</td>
 					</tr>
 					<tr>
@@ -80,7 +80,7 @@
 					<tr>
 						<th scope="row">3</th>
 						<td>Grace Parkin</td>
-						<td>Left Back</td>
+						<td>Right Back</td>
 					</tr>
 					<tr>
 						<th scope="row">4</th>
@@ -97,7 +97,7 @@
 			<div class="col-md-4">
 				<table class="table team-text">
 					<thead>
-						<tr>
+						<tr class="table-title">
 							<th scope="col">Number</th>
 							<th scope="col">Name</th>
 							<th scope="col">Position</th>
@@ -105,7 +105,7 @@
 					</thead>
 					<tr>
 						<th scope="row">6</th>
-						<td>Annabel Wallace</td>
+						<td><a href="#" class="team-text" data-toggle="popover" data-placement="top" data-trigger="focus" title="Annabel Wallace" data-content="Skillful creative midfielder, good vision and a great pass.">Annabel Wallace</a></td>
 						<td>Centre Midfield</td>
 					</tr>
 					<tr>
@@ -133,7 +133,7 @@
 			<div class="col-md-4">
 				<table class="table team-text">
 					<thead>
-						<tr>
+						<tr class="table-title">
 							<th scope="col">Number</th>
 							<th scope="col">Name</th>
 							<th scope="col">Position</th>
@@ -156,7 +156,7 @@
 					<td>Cerys Vater</td>
 					<td>Striker</td>
                     </tr>
-                    	<th scope="row">11</th>
+                    	<th scope="row">15</th>
 					<td>Lucy Bewick</td>
 					<td>Goalkeeper</td>
                     </tr>
@@ -205,6 +205,10 @@
 			</div>
 		</div>
 	</footer>
-
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+</script>
 
 </body>

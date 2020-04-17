@@ -4,8 +4,6 @@ body {
 
 /*----------------------------Navbar*/
 
-element.style {
-}
 .navbar-dark .navbar-nav .nav-link {
     color: #f2f2f2;
     font-size: 25px;
@@ -80,13 +78,13 @@ element.style {
 
 .footer-links li a {
     color: #f2f2f2;
-    font-size: 30px;
-    padding: 25px 10px;
+    font-size: 28px;
+    padding-right: 25px;
     }
 
   .footerlogo {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
   }
 
 /*----------------------------Team Image*/
@@ -109,7 +107,7 @@ element.style {
       font-weight: 700;
       }
 
-.teamtext {
+.teamhead {
         padding: 30px 20px;
     }
 
@@ -122,4 +120,15 @@ element.style {
 .team-text {
     color: #f2f2f2;
     font-family: 'Roboto'. sans-serif;
+}
+
+.table-title th {
+    color: #D93A2B;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    }
+
+a:hover {
+    color: #D93A2B;
+    text-decoration: underline;
 }
