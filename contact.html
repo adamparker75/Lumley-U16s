@@ -49,92 +49,69 @@
 				</div>
 		</nav>
 	</header>
-	<section class="fixtures-image">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="fixtures-title">Fixtures/Results</h2>
-				</div>
-			</div>
-		</div>
-	</section>
-	<div class="container-fluid fixtures-section">
+
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-12 col-md-6 text-center fixtures">
-				<h2>Fixtures</h2>
-			<table class="table table-dark table-borderless table-text">
-					<thead>
-						<tr class="table-title">
-							<th scope="col">Date</th>
-							<th scope="col">Opposition</th>
-                            <th scope="col">Time</th>
-						</tr>
-					</thead>
-                    	<tr>
-						<th scope="row">18/04/2020</th>
-						<td>Blyth Town Real</td>
-                        <td>10:00</td>
-					</tr>
-                     	<tr>
-						<th scope="row">25/04/2020</th>
-						<td>Hartlepool United Girls</td>
-                        <td>09:30</td>
-					</tr>
-                    <tr>
-						<th scope="row">02/05/2020</th>
-						<td>Middlesbrough Lionesses</td>
-                        <td>10:00</td>
-					</tr>
-                    <tr>
-						<th scope="row">09/05/2020</th>
-						<td>Bishop Auckland F.C</td>
-                        <td>10:30</td>
-					</tr>
-                    <tr>
-						<th scope="row">16/05/2020</th>
-						<td>Norton & Stockton Ancients</td>
-                        <td>09:30</td>
-					</tr>
-			</table>
+			<div class="col-sm-12 col-md-6">
+				<iframe class="contact-map"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1023.2485434389125!2d-1.5114269660604451!3d54.848225714197014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e7cb3e2aa99f3%3A0x45e6fb8d8be21523!2sBurnside%20Workmen&#39;s%20Club%20%26%20Institute!5e0!3m2!1sen!2suk!4v1587460971251!5m2!1sen!2suk"
+					frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			</div>
-            <div class="col-sm-12 col-md-6 text-center fixtures">
-				<h2>Results</h2>
-			<table class="table table-dark table-borderless table-text">
-					<thead>
-						<tr class="table-title">
-							<th scope="col">Date</th>
-							<th scope="col">Opposition</th>
-                            <th scope="col">Score</th>
-						</tr>
-					</thead>
-                    	<tr>
-						<th scope="row">01/02/2020</th>
-						<td>Beamish Girls F.C.</td>
-                        <td>3-1</td>
-					</tr>
-                     	<tr>
-						<th scope="row">22/02/2020</th>
-						<td>Middlesbrough Lionesses</td>
-                        <td>5-4</td>
-					</tr>
-                    <tr>
-						<th scope="row">29/02/2020</th>
-						<td>Bishop Auckland F.C.</td>
-                        <td>5-4</td>
-					</tr>
-                    <tr>
-						<th scope="row">07/03/2020</th>
-						<td>Boro Rangers</td>
-                        <td>0-2</td>
-					</tr>
-                    <tr>
-						<th scope="row">21/03/2020</th>
-						<td>Darlington</td>
-                        <td>2-1</td>
-					</tr>
-			</table>
+			<div class="col-sm-12 col-md-6 text-center contact-address">
+				<h2>Where to find us</h2>
+				<p>
+					Lumley Ladies F.C.
+					<br>Burnside
+					<br>Fencehouses
+					<br>Houghton le Spring
+					<br>Tyne and Wear
+					<br>DH4 6AH
+            </p>
 			</div>
 		</div>
+	</div>
+
+	<div class="container-fluid contact-form">
+		<div class="row">
+			<div class="col-sm-12 text-center contact-title">
+				<h3>If you would like to join the team, please fill out your details below.</h3>
+			</div>
+		</div>
+		<form>
+			<div class="form-row">
+				<div class="col-sm-6 col-md-6">
+					<label for="firstname" class="form-text">First Name</label>
+					<input type="text" class="form-control" id="firstname">
+    </div>
+					<div class="col-sm-6 col-md-6">
+						<label for="lastname" class="form-text">Last Name</label>
+						<input type="text" class="form-control" id="lastname">
+    </div>
+					</div>
+					<div class="form-row">
+						<div class="col-sm-6 col-md-6">
+							<label for="inputEmail4" class="form-text">Email</label>
+							<input type="email" class="form-control" id="inputEmail4">
+    </div>
+							<div class="col-sm-6 col-md-6">
+								<label for="telnumber" class="form-text">Telephone Number</label>
+								<input type="text" class="form-control" id="telnumber">
+    </div>
+							</div>
+							<div class="form-row">
+								<div class="col-sm-6 col-md-12">
+									<div class="form-group">
+										<label for="comment" class="form-text">A bit about you.</label>
+										<textarea class="form-control" rows="5" id="comment"></textarea>
+									</div>
+								</div>
+                                </div>
+                                <div class="form-row">
+                                <div class="col-sm-6 col-md-12 d-flex justify-content-center">
+                                <button type="submit" class="btn btn-danger mb-2" id="submit">Submit</button>
+                                </div>
+							</div>
+		</form>
 	</div>
 
 	<footer class="footer">
@@ -154,10 +131,10 @@
 						</li>
 					</ul>
 				</div>
-                <div class="col d-flex justify-content-center">
-				 <a class="footer-contact" href="contact.html">Contact Us</a>
-                </div>
-                <div class="col d-flex justify-content-end">
+				<div class="col d-flex justify-content-center">
+					<a class="footer-contact" href="contact.html">Contact Us</a>
+				</div>
+				<div class="col d-flex justify-content-end">
 					<ul class="list-inline footer-links">
 						<li class="list-inline-item">
 							<a target="_blank" href="https://www.facebook.com/groups/725419510930537/">
