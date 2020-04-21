@@ -1,229 +1,237 @@
 body {
-    font-family: 'Oswald', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
+
 
 /*----------------------------Navbar*/
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #f2f2f2;
-    font-size: 25px;
-    padding-right: 20px;
-    }
+	color: #f2f2f2;
+	font-size: 25px;
+	padding-right: 20px;
+}
 
 .menubar {
-    border: 1px solid #D93A2B;
+	border: 1px solid #D93A2B;
 }
 
 .logo {
-    width: 80px;
-    }
+	width: 80px;
+}
+
 
 /*----------------------------Main Image*/
 
 .bgimage {
-  width:100%;
-  height:500px;
-  background: url("../images/lumley.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size:cover;
-  background-attachment: scroll;
-  background-clip: padding-box;
-  }
+	width: 100%;
+	height: 700px;
+	background: url("../images/lumley.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: scroll;
+	background-clip: padding-box;
+}
 
-  .bgimage h2 {
-      color: #f2f2f2;
-      font-family: 'Roboto', sans-serif;
-      font-size: 45px;
-      font-weight: 700;
-      }
+.image-text-all {
+	color: #343a40;
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	font-weight: 700;
+	background-color: rgba(242, 242, 242, 0.6);
+	border-radius: 0.5em;
+	margin-top: 20px;
+}
 
-    .herotext {
-        padding: 30px 20px;
-    }
 
 /*----------------------------Main Content*/
 
-
 .maincontent {
-    width: 100%;
-    height: 480px;
-    padding-top: 20px;
-    background-color: #343a40;
-    border-top: 1px solid #D93A2B;
-   }
+	width: 100%;
+	height: 480px;
+	padding-top: 20px;
+	background-color: #343a40;
+	border-top: 1px solid #D93A2B;
+}
 
 .maincontent h2 {
-    color: #D93A2B;
-    font-size: 35px;  
-    font-weight: 400;
-    text-decoration: underline;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    }
+	color: #D93A2B;
+	font-size: 35px;
+	font-weight: 400;
+	text-decoration: underline;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
 .maincontent p {
-    color: #f2f2f2;
-    font-size: 20px;
-    font-weight: 400;
-    padding-top: 50px;
-    }
-     
+	color: #f2f2f2;
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 50px;
+}
+
+
 /*----------------------------Footer*/
 
 .footer {
-    height: 75px;
-    background-color: #343a40;
-    border: 1px solid #D93A2B    
+	height: 75px;
+	background-color: #343a40;
+	border: 1px solid #D93A2B
 }
 
 .footer-links li a {
-    color: #f2f2f2;
-    font-size: 25px;
-    padding-right: 5px;
-    }
+	color: #f2f2f2;
+	font-size: 25px;
+	padding-right: 5px;
+}
 
-    .footer-contact {
-        color: #D93A2B;
-        font-size: 25px;
-    }
+.footer-contact {
+	color: #D93A2B;
+	font-size: 25px;
+}
 
-  .footerlogo {
-    width: 25px;
-    height: 25px;
-  }
+.footer-logo {
+	width: 25px;
+	height: 25px;
+}
+
+@media(max-width: 409px) {
+#contact-us-link-footer {
+font-size: 1.1em;
+}
+}
+
+@media(max-width: 422px) {
+.footer-social-links {
+font-size: 0.6em;
+}
+}
+
+@media(max-width: 422px) {
+.footer-logo {
+height: 0.7em;
+width: 0.7em;
+}
+}
+
+
 
 /*----------------------------Team Page*/
 
 .team-image {
-  width:100%;
-  height:500px;
-  background: url("../images/lumley6.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size:cover;
-  background-attachment: scroll;
-  background-clip: padding-box;
+	width: 100%;
+	height: 700px;
+	background: url("../images/lumley6.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: scroll;
+	background-clip: padding-box;
 }
 
- .team-image h2 {
-      color: #f2f2f2;
-      font-family: 'Roboto', sans-serif;
-      font-size: 45px;
-      font-weight: 700;
-      }
-
-.teamhead {
-        padding: 30px 20px;
-    }
-
 .team-info {
-    background-color: #343a40;
-    border-top: 1px solid #D93A2B;
-    }
+	background-color: #343a40;
+	border-top: 1px solid #D93A2B;
+}
 
 .team-text {
-    color: #f2f2f2;
-    font-family: 'Roboto'. sans-serif;
+	color: #f2f2f2;
+	font-family: 'Roboto'. sans-serif;
 }
 
 .table-title th {
-    color: #D93A2B;
-    font-size: 1.2rem;
-    text-decoration: underline;
-    }
+	color: #D93A2B;
+	font-size: 1.2rem;
+	text-decoration: underline;
+}
 
 a:hover {
-    color: #D93A2B;
-    text-decoration: underline;
+	color: #D93A2B;
+	text-decoration: underline;
 }
+
 
 /*----------------------------Fixtures Page*/
 
 .fixtures-image {
-width:100%;
-  height:500px;
-  background: url("../images/lumley5.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size:cover;
-  background-attachment: scroll;
-  background-clip: padding-box;
- }
-
-.fixtures-title {
-    color: #f2f2f2;
-      font-family: 'Roboto', sans-serif;
-      font-size: 45px;
-      font-weight: 700;
-      padding: 30px 20px;
+	width: 100%;
+	height: 700px;
+	background: url("../images/lumley5.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: scroll;
+	background-clip: padding-box;
 }
 
- .fixtures-section {
-     background-color: #343a40;
-     border-top: 1px solid #D93A2B;
- }
+.fixtures-section {
+	background-color: #343a40;
+	border-top: 1px solid #D93A2B;
+}
 
- .fixtures h2 {
-     color: #D93A2B;
-     font-size: 35px;  
-    font-weight: 400;
-    text-decoration: underline;
-    padding-top: 20px;
-    padding-bottom: 20px;
-      }
+.fixtures h2 {
+	color: #D93A2B;
+	font-size: 35px;
+	font-weight: 400;
+	text-decoration: underline;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
- /*----------------------------Contact Page*/
 
- .contact-map {
-     height: 500px;
-     width: 100%;
- }
+/*----------------------------Contact Page*/
 
- .contact-address {
-     background-color: #343a40;
-     height: 500px;
-     width: 100%;
-     border: 1px solid #D93A2B;
-    }
+.contact-map {
+	height: 500px;
+	width: 100%;
+}
 
- .contact-address h2 {
-    color: #D93A2B;
-    font-size: 35px;  
-    font-weight: 400;
-    text-decoration: underline;
-    padding-top: 20px;
-    padding-bottom: 20px;
- }
+.contact-address {
+	background-color: #343a40;
+	width: 100%;
+	border-left: 1px solid #D93A2B;
+	border-bottom: 1px solid #D93A2B;
+	border-right: 1px solid #D93A2B;
+}
 
- .contact-address p {
-     color: #D93A2B;
-     font-size: 25px;
-     padding-top: 20px;
-     }
+.contact-address h2 {
+	color: #D93A2B;
+	font-size: 35px;
+	font-weight: 400;
+	text-decoration: underline;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contact-address p {
+	color: #D93A2B;
+	font-size: 25px;
+	padding-top: 20px;
+}
 
 .contact-form {
-    background-color: #343a40;
-}    
+	background-color: #343a40;
+}
 
 .contact-title {
-    color: #D93A2B;
-    font-size: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+	color: #D93A2B;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .form-text {
-    color: #D93A2B;
-    letter-spacing: 1px;
-    font-weight: 500;
-    padding-top: 5px;
-    padding-bottom: 5px;
+	color: #D93A2B;
+	letter-spacing: 1px;
+	font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: underline;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .btn-danger {
-    color: #f2f2f2;
-    background-color: #D93A2B;
-    border-color: #D93A2B;
+	color: #f2f2f2;
+	background-color: #D93A2B;
+	border-color: #D93A2B;
 }
-
