@@ -70,7 +70,7 @@ Having seperate tables on both the team page and the fixtures and results page w
 ### _**Tablet View**_
 
 <p align="center">
-  <img width="600" height="400" src="assets/images/lumley_tablet_wireframe.png">
+  <img width="400" height="600" src="assets/images/lumley_tablet_wireframe.png">
 </p>
 
 ### _**Image Carousel**_
