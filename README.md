@@ -1,4 +1,4 @@
-# _**Lumley Ladies Under 16’s**_ <img align="right" width="100" height="100" src="assets/images/lumley_logo.png">
+# _**Lumley Ladies Under 16’s**_ <img align="right" width="100" height="100" src="assets/images/lumley_fc_logo.png">
 
 This website was designed for my daughters football team the Lumley Ladies under 16’s. Currently there is nowhere for people to go to find out information about the team, such as the latest fixtures and results or league table, or even where the team play.
 I designed the website with this in mind, it’s somewhere that players, supporters, friends and family and also people new to the team can come and find out how the team are doing and get a little bit of information on each of the players. There is also a contact form to enable people to contact us with any questions, or tell us a bit about themselves if they want to join the team. 
@@ -32,3 +32,12 @@ As someone who is interested in joining the team, I want to be able to send my d
 As someone who wants to watch the team for the first time, I want to see the location of where the team play, to enable me to plan my trip. 
 
 As a user of the website, I want the pages to be visually appealing and easy to use, so I can navigate easily between the different sections.
+
+## _**Wireframes**_
+
+### _**Home Page**-
+
+<p align="center">
+  <img width="460" height="300" src="assets/images/lumley_homepage_wireframe.png">
+</p>
+
