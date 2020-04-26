@@ -1,7 +1,7 @@
 # _**Lumley Ladies Under 16’s**_ <img align="right" width="100" height="100" src="assets/images/lumley_fc_logo.png">
 
 This website was designed for my daughters football team the Lumley Ladies under 16’s. Currently there is nowhere for people to go to find out information about the team, such as the latest fixtures and results or league table, or even where the team play.
-I designed the website with this in mind, it’s somewhere that players, supporters, friends and family and also people new to the team can come and find out how the team are doing and get a little bit of information on each of the players. There is also a contact form to enable people to contact us with any questions, or tell us a bit about themselves if they want to join the team. 
+I designed the website with this in mind, it’s somewhere that players, supporters, friends and family and also people new to the team can come and find out how the team is perforing and get a little bit of information on each of the players. There is also a contact form to enable people to contact us with any questions, or tell us a bit about themselves if they want to join the team. 
 
 
 ## _**UX**_
@@ -23,7 +23,7 @@ The website is aimed at but not limited to the following users :
 
 As a supporter of the team/friends and family, I want to be able to see the upcoming fixtures, so that I can plan to watch them.
 
-As a supporter of the team/friends and family, I want to see a league table, so that I can see how well the team is doing.
+As a supporter of the team/friends and family, I want to see a league table, so that I can see how well the team is perfoming.
 
 As a supporter of the team, I want to get more information on each individual player, so I can get to know them better.
 
@@ -117,6 +117,55 @@ The image carousel and achievements and league table section were added at a lat
 ## _**Testing**_
 
 A lot of the testing was carried out using the developer tools in Google Chrome, whilst in a preview from Gitpod. This was to look at the responsiveness of the website and to make sure it works well on mobile devices. This resulted in a lot of modifying on the go as I was creating the code.
+
+### _**User Story Tests**_
+
+1. **Fixtures page** <br>
+i. Click on the Fixtures and Results link in the navigation bar. <br>
+ii. Does the Fixtures and Results page open? <br>
+iii. Can the fixtures and results be displayed clearly?  
+
+**All tests performed and no errors found.**
+
+2. **League Table** <br>
+i. Open the home page. <br> 
+ii. Scroll down to the League Table Section. <br>
+iii. Can the League Table be viewed clearly? 
+
+**All tests performed and no errors found.**
+
+3. **Player Information** <br>
+i. Click on the Team Page link in the navigation bar. <br>
+ii. Are the names displayed clearly? <br>
+iii. Click on a players name. <br>
+iv. Does a popover appear with the players name and some information about the player? <br>
+v. Click away from the players name. <br>
+vi. Does the popover disappear? <br>
+vii. Click on another players name. <br>
+viii. Is the information displayed in the popover different? <br>
+ix. Click on all the players names to ensure the correct information is displayed. <br>
+
+**All tests performed and no errors found.**
+
+4. **Contact Form** <br>
+i. Click on the contact us link in the footer. <br>
+ii. Click back to home and click on the contact link in the navigation bar. <br>
+iii. Submit a blank form to check if an error message appears for the required field. <br>
+iv. Test the email field with an invalied email address. Can the form be submitted. <br>
+v. Place 5 characters in the text box and submit, do you get a message about the minimum number of characters? <br>
+vi. Submit the form with all fields filled out correctly, can the form be submitted? <br>
+
+**All tests performed and no errors found.**
+
+
+5. **Google Map** <br>
+i. Click on the contact us link in the footer. <br>
+ii. Click back to home and click on the contact link in the navigation bar. <br>
+iii. Is the embedded Google Map displayed. <br>
+iv.Does the map zoom in and out? <br>
+v.Does the view larger map link open the map in Google Maps?
+
+All tests performed and no errors found.
 
 **I tested the website on the following browsers using a Microsoft Surface Pro on Windows 10 pro.**
 
