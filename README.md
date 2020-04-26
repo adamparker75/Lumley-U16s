@@ -95,7 +95,49 @@ The image carousel and achievements and league table section were added at a lat
 ### _**Features left to implement**_
 
 * Individual player images in the popovers on the team page.
-* Fixtures and results to be self replicating, i.e to pull data from the leage website
-* League table to also pull data from the league website and update
-* Have a clickable link on each result with a link to a match report
+* Fixtures and results to be self replicating, i.e to pull data from the leage website.
+* League table to also pull data from the league website and update.
+* Have a clickable link on each result with a link to a match report.
 * Create a separate private page for the coach and the players to share information.
+
+## _**Testing**_
+
+A lot of the testing was carried out using the developer tools in Google Chrome, whilst in a preview from Gitpod. This was to look at the responsiveness of the website and to make sure it works well on mobile devices. This resulted in a lot of modifying on the go as I was creating the code.
+
+**I tested the website on the following browsers using a Microsoft Surface Pro on Windows 10 pro.**
+
+Google Chrome - Version 81.0.4044.122 (Official Build) (64-bit)
+
+Microsoft Edge - 44.18362.449.0
+
+Firefox - 75.0 (64 bit)
+
+The website worked well on all of these browsers. All navigation links worked, the social links in the footer worked. All of the reuired elements in the contact form worked correctly as did the popovers on the players names. 
+
+**I also tested the website on a number of devices as listed below.**
+
+Google Pixel 3 xl using Google Chrome on Android 10
+
+Moto E5 using using Google Chrome on Android 8.1
+
+IPAD 6th Generation using Safari on IOS 13.4
+
+Iphone 8 using Safari on IOS 13.4
+
+The following websites were used for validation of my code.
+
+HTML validation <https://validator.w3.org/>
+
+CSS validation <https://jigsaw.w3.org/css-validator/> 
+
+### _**Issues found in testing**_
+
+1. The text on the homepage overflowed from the container when viewed on smaller devices. The font size was reduced slightly and this resolved this issue
+2. The popover on the player “Sophie Luke” jumped to the player “Sophie Winlow” . This was due to them both having the same name, this was resolved by changing the name in the HREF for Sophie Luke to “sophiel”
+3. Main image cut off most of the faces in the bottom row. This was resolved by increasing the height of the image.
+4. Could not get social links to justify to either end of their containers. Resolved by a google search and adding the class of justify-content-end-start to the parent container.
+
+### _**Not yet resolved**_
+
+1. On smaller devices the last Icon for the social links jumps to another line. I have added a media query to reduce the icon size down to 0.6em at a max-width of 422px. But feel if I reduce the size down any further for smaller devices, it will be very difficult to see
+2. The League table overflows it’s container on the homepage when viewed on tablet devices. I have given the table a class of “table-responsive”. This gets rid of the white space however it results in being able to drag the table from side to side.
