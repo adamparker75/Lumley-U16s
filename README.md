@@ -100,6 +100,20 @@ The image carousel and achievements and league table section were added at a lat
 * Have a clickable link on each result with a link to a match report.
 * Create a separate private page for the coach and the players to share information.
 
+## _**Technologies Used**_
+
+[HTML](https://en.wikipedia.org/wiki/HTML5) - HTML provides the content and structure for my website
+
+[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - CSS provides the styling.
+
+[Bootstrap](https://getbootstrap.com/) - The Bootstrap framework was used to create the layout for all of the pages. I also used it for the navbar, image carousel, popovers and tables.
+
+[Google Fonts](https://fonts.google.com/) - I used the Roboto and Oswald fonts on each of my pages.
+
+[Font Awesome](https://fontawesome.com/) - I uses the font awesome icons to style the links in the footer.
+
+[jQuery](https://jquery.com/) - jQuery was used within Bootstrap to create the popover on the players names.
+
 ## _**Testing**_
 
 A lot of the testing was carried out using the developer tools in Google Chrome, whilst in a preview from Gitpod. This was to look at the responsiveness of the website and to make sure it works well on mobile devices. This resulted in a lot of modifying on the go as I was creating the code.
