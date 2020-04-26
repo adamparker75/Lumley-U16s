@@ -83,14 +83,14 @@ The image carousel and achievements and league table section were added at a lat
 
 ## _**Features**_
 
-* Navigation Bar - This allows users to easily navigate the site, it is easy to use and is consistent throughout the website.
-* Footer Links - These allow users to link to the clubs social media pages, there are also links to the Russel Foster league and the Durham F.A websites. Again these are consistent on each page.
-* Image Carousel - Displays some images of the team in action
-* Team Page - There are clickable popovers on every players name. This allows users to get a little bit more information on all of the players.
-* Contact Form - Allows users to submit their details to us, this could be with any queries they have, or to let us know if they’re interested in joining the team.
-* Embedded Google Map - Allows users to see where the team play and get directions.
-* Fixtures and Results - Users can see the upcoming fixtures and get a list of the past few results.
-* League Table - Users can get an understanding of how well the team are doing.
+* **Navigation Bar** - This allows users to easily navigate the site, it is easy to use and is consistent throughout the website.
+* **Footer Links** - These allow users to link to the clubs social media pages, there are also links to the Russel Foster league and the Durham F.A websites. Again these are consistent on each page.
+* **Image Carousel** - Displays some images of the team in action
+* **Team Page** - There are clickable popovers on every players name. This allows users to get a little bit more information on all of the players.
+* **Contact Form** - Allows users to submit their details to us, this could be with any queries they have, or to let us know if they’re interested in joining the team.
+* **Embedded Google Map** - Allows users to see where the team play and get directions.
+* **Fixtures and Result**s - Users can see the upcoming fixtures and get a list of the past few results.
+* **League Table** - Users can get an understanding of how well the team are doing.
 
 ### _**Features left to implement**_
 
@@ -162,10 +162,10 @@ vi. Submit the form with all fields filled out correctly, can the form be submit
 i. Click on the contact us link in the footer. <br>
 ii. Click back to home and click on the contact link in the navigation bar. <br>
 iii. Is the embedded Google Map displayed. <br>
-iv.Does the map zoom in and out? <br>
-v.Does the view larger map link open the map in Google Maps?
+iv. Does the map zoom in and out? <br>
+v. Does the view larger map link open the map in Google Maps?
 
-All tests performed and no errors found.
+**All tests performed and no errors found.**
 
 **I tested the website on the following browsers using a Microsoft Surface Pro on Windows 10 pro.**
 
@@ -204,3 +204,15 @@ CSS validation <https://jigsaw.w3.org/css-validator/>
 
 1. On smaller devices the last Icon for the social links jumps to another line. I have added a media query to reduce the icon size down to 0.6em at a max-width of 422px. But feel if I reduce the size down any further for smaller devices, it will be very difficult to see
 2. The League table overflows it’s container on the homepage when viewed on tablet devices. I have given the table a class of “table-responsive”. This gets rid of the white space however it results in being able to drag the table from side to side.
+
+## _**Deployment**_
+
+My website is hosted on GitHub Pages to access the website please take the following steps.
+
+1. Navigate to my Github repository - <https://github.com/adamparker75/MS1-Lumley-U16s>
+2. Click on the **settings** tab at the top of the page.
+3. Scroll down to the **GitHub Pages** section.
+4. Change the source to **master branch**.
+5. After selecting master branch the page will refresh.
+6. Scroll down to the GitHub Pages section and a green box saying **"your site is published at"** will appear.
+7. Click the link to go to the published website.
