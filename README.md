@@ -38,7 +38,7 @@ As a user of the website, I want the pages to be visually appealing and easy to 
 ### _**Home Page**_
 
 <p align="center">
-  <img width="460" height="460" src="assets/images/lumley_homepage_wireframe.png">
+  <img width="600" height="400" src="assets/images/lumley_homepage_wireframe.png">
 </p>
 
 ### _**Team Page**_
@@ -46,31 +46,31 @@ As a user of the website, I want the pages to be visually appealing and easy to 
 Having seperate tables on both the team page and the fixtures and results page was a design choice, as I felt it looked better that way and was also more responsive when viewed on smaller devices.
 
 <p align="center">
-  <img width="460" height="460" src="assets/images/lumley_team_wireframe.png">
+  <img width="600" height="400" src="assets/images/lumley_team_wireframe.png">
 </p>
 
 ### _**Fixtures Page**_
 
 <p align="center">
-  <img width="460" height="460" src="assets/images/lumley_fixtures_wireframe.png">
+  <img width="600" height="400" src="assets/images/lumley_fixtures_wireframe.png">
 </p>
 
 ### _**Contact Page**_
 
 <p align="center">
-  <img width="460" height="460" src="assets/images/lumley_contact_wireframe.png">
+  <img width="600" height="400" src="assets/images/lumley_contact_wireframe.png">
 </p>
 
 ### _**Mobile View**_
 
 <p align="center">
-  <img width="360" height="460" src="assets/images/lumley_mobile_wireframe.png">
+  <img width="260" height="600" src="assets/images/lumley_mobile_wireframe.png">
 </p>
 
 ### _**Tablet View**_
 
 <p align="center">
-  <img width="460" height="460" src="assets/images/lumley_tablet_wireframe.png">
+  <img width="600" height="400" src="assets/images/lumley_tablet_wireframe.png">
 </p>
 
 ### _**Image Carousel**_
@@ -78,7 +78,7 @@ Having seperate tables on both the team page and the fixtures and results page w
 The image carousel and achievements and league table section were added at a later date and as such were not included in the initial wire frame. 
 
 <p align="center">
-  <img width="460" height="460" src="assets/images/lumley_carousel_wireframe.png">
+  <img width="600" height="400" src="assets/images/lumley_carousel_wireframe.png">
 </p>
 
 ## _**Features**_
