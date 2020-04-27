@@ -3,7 +3,7 @@
 This website was designed for my daughters football team the Lumley Ladies under 16’s. Currently there is nowhere for people to go to find out information about the team, such as the latest fixtures and results or league table, or even where the team play.
 I designed the website with this in mind, it is somewhere that players, supporters, friends and family and also people new to the team can come and find out how the team is performing and get a little bit of information on each of the players. There is also a contact form to enable people to contact us with any questions, or tell us a bit about themselves if they want to join the team. 
 
-You can view the deployed website here - [Lumley Ladies Under 16's](https://adamparker75.github.io/MS1-Lumley-U16s/).
+You can view the deployed website here - [Lumley Ladies Under 16's](https://adamparker75.github.io/Lumley-U16s-MS1/).
 
 ## _**UX**_
 
@@ -229,7 +229,7 @@ You can view the deployed website here - [Lumley Ladies Under 16's](https://adam
 
 ### _**Git Clone**_
 
-1. Navigate to my Github repository - <https://github.com/adamparker75/MS1-Lumley-U16s>
+1. Navigate to my Github repository - <https://adamparker75.github.io/Lumley-U16s-MS1/>
 2. Click the green drop down that says clone or download.
 
  <p align="center">
