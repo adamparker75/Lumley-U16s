@@ -2,6 +2,7 @@ body {
 	font-family: 'Oswald', sans-serif;
 }
 
+
 /*----------------------------Navbar*/
 
 .navbar-dark .navbar-nav .nav-link {
@@ -17,6 +18,7 @@ body {
 .logo {
 	width: 85px;
 }
+
 
 /*----------------------------Main Image*/
 
@@ -41,6 +43,7 @@ body {
 	margin-top: 20px;
 }
 
+
 /*----------------------------Main Content*/
 
 .maincontent {
@@ -49,8 +52,8 @@ body {
 	padding-top: 20px;
 	background-color: #343a40;
 	border-top: 1px solid #D93A2B;
-    border-bottom: 1px solid #D93A2B;
-    }
+	border-bottom: 1px solid #D93A2B;
+}
 
 .maincontent h2 {
 	color: #D93A2B;
@@ -58,7 +61,7 @@ body {
 	font-weight: 400;
 	text-decoration: underline;
 	padding-top: 20px;
-	padding-bottom: 20px;  
+	padding-bottom: 20px;
 }
 
 .maincontent p {
@@ -66,24 +69,25 @@ body {
 	font-size: 20px;
 	font-weight: 400;
 	padding-top: 40px;
-    margin: 0;
+	margin: 0;
 }
+
 
 /*----------------------------Achievements*/
 
 .achievements {
-    background-color: #343a40;
-    color: #D93A2B;
-    height: 730px;
+	background-color: #343a40;
+	color: #D93A2B;
+	height: 730px;
 }
 
 .achievements-text-top {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}  
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 
 .achievements h2 {
-    font-size: 35px;
+	font-size: 35px;
 	font-weight: 400;
 	text-decoration: underline;
 	padding-top: 20px;
@@ -91,20 +95,22 @@ body {
 }
 
 .achievements-text-bottom {
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
+
 
 /*----------------------------Carousel*/
 
 .lumley-carousel {
-    height: 730px;
-    padding: 0;
+	height: 730px;
+	padding: 0;
 }
 
 .carousel-image {
-    height: 730px;
-    object-fit: cover;
+	height: 730px;
+	object-fit: cover;
 }
+
 
 /*----------------------------Footer*/
 
@@ -131,23 +137,24 @@ body {
 }
 
 @media(max-width: 409px) {
-#contact-us-link-footer {
-font-size: 1.1em;
-}
-}
-
-@media(max-width: 422px) {
-.footer-social-links {
-font-size: 0.6em;
-}
+	#contact-us-link-footer {
+		font-size: 1.1em;
+	}
 }
 
 @media(max-width: 422px) {
-.footer-logo {
-height: 0.7em;
-width: 0.7em;
+	.footer-social-links {
+		font-size: 0.6em;
+	}
 }
+
+@media(max-width: 422px) {
+	.footer-logo {
+		height: 0.7em;
+		width: 0.7em;
+	}
 }
+
 
 /*----------------------------Team Page*/
 
@@ -168,13 +175,12 @@ width: 0.7em;
 }
 
 .info-text {
-    color: #f2f2f2;    
-    font-size: 20px;
+	color: #343a40;
+	font-size: 20px !important;
 }
-    
+
 .team-text {
 	color: #f2f2f2;
-	font-family: 'Roboto', sans-serif;
 }
 
 .table-title th {
@@ -187,6 +193,7 @@ a:hover {
 	color: #D93A2B;
 	text-decoration: underline;
 }
+
 
 /*----------------------------Fixtures Page*/
 
@@ -214,6 +221,7 @@ a:hover {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
 
 /*----------------------------Contact Page*/
 
@@ -260,8 +268,8 @@ a:hover {
 	color: #D93A2B;
 	letter-spacing: 1px;
 	font-weight: 500;
-    font-size: 1.2rem;
-    text-decoration: underline;
+	font-size: 1.2rem;
+	text-decoration: underline;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }

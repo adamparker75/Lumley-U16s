@@ -1,12 +1,13 @@
 # _**Lumley Ladies Under 16’s**_ <img align="right" width="100" height="100" src="assets/images/lumley_fc_logo.png">
 
 This website was designed for my daughters football team the Lumley Ladies under 16’s. Currently there is nowhere for people to go to find out information about the team, such as the latest fixtures and results or league table, or even where the team play.
-I designed the website with this in mind, it’s somewhere that players, supporters, friends and family and also people new to the team can come and find out how the team is performing and get a little bit of information on each of the players. There is also a contact form to enable people to contact us with any questions, or tell us a bit about themselves if they want to join the team. 
+I designed the website with this in mind, it is somewhere that players, supporters, friends and family and also people new to the team can come and find out how the team is performing and get a little bit of information on each of the players. There is also a contact form to enable people to contact us with any questions, or tell us a bit about themselves if they want to join the team. 
 
+You can view the deployed website here - [Lumley Ladies Under 16's](https://adamparker75.github.io/MS1-Lumley-U16s/).
 
 ## _**UX**_
 
-I designed the website with a mobile first approach, I wanted it to be easy to navigate and have a similar structure to each page, this is so users feel a familiarity with each page they are viewing. The colours were chosen as I feel they work well with the club colours of Red, Black and White.
+I designed the website with a mobile first approach, I wanted it to be easy to navigate and have a similar structure to each page, this is so that users feel a familiarity with each page they are viewing. <br> The colours were chosen as I feel they work well with the club colours of Red, Black and White.
 
 ### _**Target Audience**_
 
@@ -21,9 +22,9 @@ The website is aimed at but not limited to the following users :
 
 ### _**User Stories**_
 
-As a supporter of the team/friends and family, I want to be able to see the upcoming fixtures, so that I can plan to watch them.
+As a supporter of the team / friends and family, I want to be able to see the upcoming fixtures, so that I can plan to watch them.
 
-As a supporter of the team/friends and family, I want to see a league table, so that I can see how well the team is perfoming.
+As a supporter of the team / friends and family, I want to see a league table, so that I can see how well the team is perfoming.
 
 As a supporter of the team, I want to get more information on each individual player, so I can get to know them better.
 
@@ -175,7 +176,7 @@ Microsoft Edge - 44.18362.449.0
 
 Firefox - 75.0 (64 bit)
 
-The website worked well on all of these browsers. All navigation links worked, the social links in the footer worked. All of the reuired elements in the contact form worked correctly as did the popovers on the players names. 
+The website worked well on all of these browsers. All navigation links worked, the social links in the footer worked. All of the required elements in the contact form worked correctly as did the popovers on the players names. 
 
 **I also tested the website on a number of devices as listed below.**
 
@@ -202,8 +203,9 @@ CSS validation <https://jigsaw.w3.org/css-validator/>
 
 ### _**Not yet resolved**_
 
-1. On smaller devices the last Icon for the social links jumps to another line. I have added a media query to reduce the icon size down to 0.6em at a max-width of 422px. But feel if I reduce the size down any further for smaller devices, it will be very difficult to see
-2. The League table overflows it’s container on the homepage when viewed on tablet devices. I have given the table a class of “table-responsive”. This gets rid of the white space however it results in being able to drag the table from side to side.
+1. ~~On smaller devices the last Icon for the social links jumps to another line. I have added a media query to reduce the icon size down to 0.6em at a max-width of 422px. But feel if I reduce the size down any further for smaller devices, it will be very difficult to see.~~ <br> **This has now been resolved by removing the margin in the footer links.**
+
+2. ~~The League table overflows it’s container on the homepage when viewed on tablet devices. I have given the table a class of “table-responsive”. This gets rid of the white space however it results in being able to drag the table from side to side.~~ <br> **This has now been resolved by adding the bootstrap "order" class to the columns, making the league table and achievements section appear on the row below on medium devices.**
 
 ## _**Deployment**_
 
@@ -222,6 +224,8 @@ My website is hosted on GitHub Pages to access the website please take the follo
  <p align="center">
   <img width="500" height="200" src="assets/images/github_pages_deployment.jpg">
 </p>
+
+You can view the deployed website here - [Lumley Ladies Under 16's](https://adamparker75.github.io/MS1-Lumley-U16s/)
 
 ### _**Git Clone**_
 
