@@ -209,6 +209,8 @@ CSS validation <https://jigsaw.w3.org/css-validator/>
 
 My website is hosted on GitHub Pages to access the website please take the following steps.
 
+### _**GitHub Pages**_
+
 1. Navigate to my Github repository - <https://github.com/adamparker75/MS1-Lumley-U16s>
 2. Click on the **settings** tab at the top of the page.
 3. Scroll down to the **GitHub Pages** section.
@@ -216,3 +218,49 @@ My website is hosted on GitHub Pages to access the website please take the follo
 5. After selecting master branch the page will refresh.
 6. Scroll down to the GitHub Pages section and a green box saying **"your site is published at"** will appear.
 7. Click the link to go to the published website.
+
+ <p align="center">
+  <img width="500" height="200" src="assets/images/github_pages_deployment.jpg">
+</p>
+
+### _**Git Clone**_
+
+1. Navigate to my Github repository - <https://github.com/adamparker75/MS1-Lumley-U16s>
+2. Click the green drop down that says clone or download.
+
+ <p align="center">
+  <img width="300" height="50" src="assets/images/github_clone.jpg">
+</p>
+
+3. To clone with HTTPS copy the URL in the box. <https://github.com/adamparker75/MS1-Lumley-U16s.git>
+4. Open up your preferred IDE (Integrated Development Environment)
+5. Change the directory to the location you want the clone to be mage
+6. Type **git clone** and then paste the copied URL from step 3.
+7. Press Enter and your local clone will be created.
+
+## _**Credits**_
+
+### _**Content**_
+
+* The code for the navbar on all pages was copied from [w3schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)
+* The code for the image carousel on the homepage was copied from [w3schools](https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp)
+* The code for the popovers on the players names was copied from [w3schools](https://www.w3schools.com/bootstrap4/bootstrap_popover.asp)
+* The code for the jQuery for the popover was copied from [w3schools](https://www.w3schools.com/bootstrap4/bootstrap_popover.asp)
+* Background image on all pages was created with help from [stack overflow](https://stackoverflow.com/questions/50971782/using-background-image-with-bootstrap)
+* The tables on all pages were designed with help from [getbootstrap](https://getbootstrap.com/docs/4.4/content/tables/)
+* The contact page form was designed with help from [w3schools](https://www.w3schools.com/bootstrap4/bootstrap_forms.asp)
+* The colours used on the website were chosen from [Adobe](https://color.adobe.com/create/color-wheel/)
+* The wireframes were created with [Balsamiq](https://balsamiq.com/)
+
+### _**Media**_
+
+* The football team images were taken from the team [Facebook page](https://www.facebook.com/groups/725419510930537/)
+* The Lumley FC logo was taken from the club [Facebook page](https://www.facebook.com/Lumley-Ladies-Football-Club-1152952134718930/)
+* The Durham FA logo was taken from [google](https://www.google.com/search?q=durham+fa&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjiz5XauIjpAhXklFwKHVbTAPUQ_AUoA3oECA4QBQ&biw=1500&bih=858)
+* The Russel Foster League logo was taken from [google](https://www.google.com/search?q=russell+foster+league&tbm=isch&ved=2ahUKEwiNg-uGuYjpAhWP0-AKHdkVAoMQ2-cCegQIABAA&oq=russel+foster+&gs_lcp=CgNpbWcQARgAMgYIABAKEBgyBggAEAoQGDIGCAAQChAYMgYIABAKEBgyBggAEAoQGDIGCAAQChAYMgYIABAKEBgyBggAEAoQGDIGCAAQChAYUJRGWJRGYPBQaABwAHgAgAFQiAFQkgEBMZgBAKABAaoBC2d3cy13aXotaW1n&sclient=img&ei=V7qmXs37Io-ngwfZq4iYCA&bih=858&biw=1500)
+
+### _**Acknowledgements**_
+
+* To my wife **Claire Parker** for helping me test the website.
+* To my mentor **Reuben Ferrante** for helping me through the process and providing advice and guidance.
+* The inspiration for the page was taken from [start bootstrap](https://startbootstrap.com/previews/clean-blog/)
