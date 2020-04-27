@@ -103,6 +103,7 @@ body {
 
 .carousel-image {
     height: 730px;
+    object-fit: cover;
 }
 
 /*----------------------------Footer*/
@@ -173,7 +174,7 @@ width: 0.7em;
     
 .team-text {
 	color: #f2f2f2;
-	font-family: 'Roboto'. sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .table-title th {
@@ -268,5 +269,5 @@ a:hover {
 .btn-danger {
 	color: #f2f2f2;
 	background-color: #D93A2B;
-	border-color: #D93A2B;
+	border-color: #f2f2f2;
 }
