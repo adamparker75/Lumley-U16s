@@ -196,7 +196,7 @@ CSS validation <https://jigsaw.w3.org/css-validator/>
 ### _**Issues found in testing**_
 
 1. The text on the homepage overflowed from the container when viewed on smaller devices. The font size was reduced slightly and this resolved this issue
-2. The popover on the player “Sophie Luke” jumped to the player “Sophie Winlow” . This was due to them both having the same name, this was resolved by changing the name in the HREF for Sophie Luke to “sophiel”
+2. The popover on the player “Sophie Luke” jumped to the player “Sophie Winlow” . This was due to them both having the same id, this was resolved by changing the id in the HREF for Sophie Luke to “sophiel”
 3. Main image cut off most of the faces in the bottom row. This was resolved by increasing the height of the image.
 4. Could not get social links to justify to either end of their containers. Resolved by a google search and adding the class of justify-content-end-start to the parent container.
 
