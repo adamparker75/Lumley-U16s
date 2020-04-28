@@ -191,9 +191,9 @@ Iphone 8 using Safari on IOS 13.4
 
 The following websites were used for validation of my code.
 
-HTML validation <https://validator.w3.org/>
+[HTML validation](https://validator.w3.org/)
 
-CSS validation <https://jigsaw.w3.org/css-validator/> 
+[CSS validation](https://jigsaw.w3.org/css-validator/) 
 
 ### _**Issues found in testing**_
 
