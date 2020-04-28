@@ -92,6 +92,7 @@ The image carousel, achievements and league table section were added at a later 
 * **Embedded Google Map** - Allows users to see where the team play and get directions.
 * **Fixtures and Results** - Users can see the upcoming fixtures and get a list of the past few results.
 * **League Table** - Users can get an understanding of how well the team are doing.
+* **Favicon** - Makes it easier for users to identify the site in their open tabs.
 
 ### _**Features left to implement**_
 
@@ -255,6 +256,7 @@ You can view the deployed website here - [Lumley Ladies Under 16's](https://adam
 * The contact page form was designed with help from [w3schools](https://www.w3schools.com/bootstrap4/bootstrap_forms.asp).
 * The colours used on the website were chosen from [Adobe](https://color.adobe.com/create/color-wheel/).
 * The wireframes were created with [Balsamiq](https://balsamiq.com/).
+* The favicon was created on [favicon-generator](https://www.favicon-generator.org/) with assistance from peers in the Code Institute Slack community.
 
 ### _**Media**_
 
