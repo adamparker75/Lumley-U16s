@@ -3,7 +3,7 @@
 This website was designed for my daughters football team the Lumley Ladies under 16’s. Currently there is nowhere for people to go to find out information about the team, such as the latest fixtures and results or league table, or even where the team play.
 I designed the website with this in mind, it is somewhere that players, supporters, friends and family and also people new to the team can come and find out how the team is performing and get a little bit of information on each of the players. There is also a contact form to enable people to contact us with any questions, or tell us a bit about themselves if they want to join the team. 
 
-You can view the deployed website here - [Lumley Ladies Under 16's](https://adamparker75.github.io/Lumley-U16s-MS1/).
+You can view the deployed website here - [Lumley Ladies Under 16's](https://adamparker75.github.io/Lumley-U16s/).
 
 ## _**UX**_
 
@@ -214,7 +214,7 @@ My website is hosted on GitHub Pages, to access the website please take the foll
 
 ### _**GitHub Pages**_
 
-1. Navigate to my Github repository - <https://github.com/adamparker75/MS1-Lumley-U16s>
+1. Navigate to my Github repository - <https://github.com/adamparker75/Lumley-U16s>
 2. Click on the **settings** tab at the top of the page.
 3. Scroll down to the **GitHub Pages** section.
 4. Change the source to **master branch**.
@@ -226,18 +226,18 @@ My website is hosted on GitHub Pages, to access the website please take the foll
   <img width="500" height="200" src="assets/files/github_pages_deployment.jpg">
 </p>
 
-You can view the deployed website here - [Lumley Ladies Under 16's](https://adamparker75.github.io/MS1-Lumley-U16s/)
+You can view the deployed website here - [Lumley Ladies Under 16's](https://adamparker75.github.io/Lumley-U16s/)
 
 ### _**Git Clone**_
 
-1. Navigate to my Github repository - <https://adamparker75.github.io/Lumley-U16s-MS1/>
+1. Navigate to my Github repository - <https://github.com/adamparker75/Lumley-U16s>
 2. Click the green drop down that says clone or download.
 
  <p align="center">
   <img width="300" height="50" src="assets/files/github_clone.jpg">
 </p>
 
-3. To clone with HTTPS copy the URL in the box. <https://github.com/adamparker75/MS1-Lumley-U16s.git>
+3. To clone with HTTPS copy the URL in the box. <https://github.com/adamparker75/Lumley-U16s.git>
 4. Open up your preferred IDE (Integrated Development Environment)
 5. Change the directory to the location you want the clone to be made.
 6. Type **git clone** and then paste the copied URL from step 3.
